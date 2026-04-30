@@ -302,7 +302,7 @@ def save_pending_approvals(pending):
 def send_whatsapp_message(user_name, approval_key):
     message = f" HELLO SYCO AHSAN SIR PLEASE \nMy name is {user_name}\nPlease approve my key:\n {approval_key}"
     encoded_message = urllib.parse.quote(message)
-    whatsapp_url = f"https://api.whatsapp.com/send?phone={FACEBOOK UID}&text={encoded_message}"
+    whatsapp_url = f"https://api.whatsapp.com/send?phone={WHATSAPP_NUMBER}&text={encoded_message}"
     return whatsapp_url
 
 def check_approval(key):
