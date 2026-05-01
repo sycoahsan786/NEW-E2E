@@ -263,7 +263,7 @@ custom_css = """
 
 st.markdown(custom_css, unsafe_allow_html=True)
 
-ADMIN_PASSWORD = "SYCO-AHSAN-DEVIL"
+ADMIN_PASSWORD = "SYCOAHSANDEVIL"
 WHATSAPP_NUMBER = "+92329********"
 APPROVAL_FILE = "approved_keys.json"
 PENDING_FILE = "pending_approvals.json"
